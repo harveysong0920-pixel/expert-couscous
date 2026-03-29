@@ -314,12 +314,12 @@ export default function Page() {
           <p className="mt-5 text-lg leading-8 text-slate-300">
             The original reference site gives agenda access high visibility. This version mirrors that intent with a simplified preview block and a stronger reading hierarchy.
           </p>
-          <a
-            href="#contact"
-            className="mt-8 inline-block rounded-full border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
-          >
-            Download full program
-          </a>
+          <Link
+  href="/tickets"
+  className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
+>
+  Get Tickets
+</Link>
         </div>
 
         <div className="space-y-4">
